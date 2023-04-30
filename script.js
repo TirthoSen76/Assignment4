@@ -54,7 +54,6 @@ function amountCalculationEconomy(id1, id2, id3, id4, id5) {
     document.getElementById(id4).innerText = vatAmount;
     let totalAmount = subTotalAmount + vatAmount;
     document.getElementById(id5).innerText = totalAmount;
-    return totalAmount;
 }
 
 // Economy increment button 
